@@ -1,0 +1,41 @@
+body{
+    padding: 5px;
+    margin: 0;
+}
+.post{
+    font-family: "Poppins",sans-serif;
+}
+.post p{
+    color: #000;
+    font-size: 19px;
+}
+.post button{
+    padding: 13px;
+    background-color: #b302ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+}
+.post:not(:last-child){
+    margin-bottom: 50px;
+}
+.hide{
+    display: none;
+}
+.post h1{
+    color: #000;
+}
+.cont{
+    height: 185px;
+    width: 90px;
+  }
+ main .blog-h {
+    color: #000;
+    text-align: center;
+    height: 93px;
+    font-size: 1.5em;
+ }
+ section {
+    padding: 0 33px;
+ }

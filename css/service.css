@@ -1,0 +1,72 @@
+/* Style for services section */
+#services {
+    background-color: #f7f7f7;
+    padding: 165px 22px;
+    text-align: center;
+  }
+  
+  #services h2 {
+    color: #000;
+    font-size: 48px;
+    margin-bottom: 60px;
+  }
+  
+  /* Style for individual services */
+  .service {
+    display: inline-block;
+    margin: 0 20px;
+    max-width: 350px;
+    text-align: left;
+  }
+  
+  .service i {
+    font-size: 48px;
+    color: #008080;
+    margin-bottom: 30px;
+    display: block;
+  }
+  
+  .service h3 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Style for contact me button */
+  .contact-me-btn {
+    display: block;
+    background-color: #008080;
+    color: #fff;
+    font-size: 16px; /* Decrease font size */
+    padding: 10px 20px; /* Decrease padding */
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .contact-me-btn:hover {
+    background-color: #006666;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Adjust individual services for smaller screens */
+    .service {
+      display: block;
+      margin: 0 auto 40px;
+      max-width: 100%;
+      text-align: left;
+    }
+    
+    .service i {
+      margin-bottom: 20px;
+    }
+  }
